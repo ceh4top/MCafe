@@ -1,0 +1,373 @@
+@import "../default";
+
+@keyframes IAnimateHome {
+  0% {
+    margin-top: 10px;
+  }
+  80% {
+    margin-top: 10px;
+  }
+  90% {
+    margin-top: 20px;
+  }
+  100% {
+    margin-top: 10px;
+  }
+}
+
+body {
+  * {
+    transition: .5s;
+  }
+
+  #Home {
+    position: relative;
+    font-family: @font-RobotoSlab;
+    text-align: center;
+
+    .Home {
+      position: relative;
+      margin: 15px;
+      width: calc(~"100vw - 30px");
+      height: calc(~"100vh - 30px");
+      line-height: calc(~"100vh - 30px");
+      overflow: hidden;
+
+      .Window {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+
+        &.Image {
+          background-attachment: fixed;
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-image: url("/IMAGE/Home/Home2.jpg");
+
+          &.Black {
+            display: none;
+            background-attachment: inherit;
+            background-size: auto;
+            background-repeat: repeat;
+            background-image: url("/IMAGE/Home/4_2.png");
+          }
+        }
+
+        .Slider {
+          max-height: 70%;
+          height: 100%;
+
+          .Arrow {
+            position: absolute;
+            top: calc(~"50% - 25px");
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+            line-height: 50px;
+            border-radius: 50%;
+            background-color: #0c5460;
+            color: white;
+            font-size: 30px;
+
+            &.Left {
+              left: 5px;
+              padding-right: 5px;
+            }
+
+            &.Right {
+              right: 5px;
+              padding-left: 5px;
+            }
+          }
+
+          .Blocks {
+            position: relative;
+            display: inline-block;
+            vertical-align: middle;
+            width: 100%;
+            height: 100%;
+            line-height: normal;
+            overflow: hidden;
+
+            .Block {
+              display: inline-block;
+              float: left;
+              height: 100%;
+              width: 100%;
+
+              .Element {
+                float: left;
+                height: 100%;
+                background-color: #0c5460;
+              }
+
+              .Text {
+                width: 45%;
+                background-color: white;
+              }
+
+              .Photo {
+                width: 55%;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .Line {
+      position: absolute;
+      bottom: -60px;
+      margin-left: -100px;
+      left: auto;
+      right: auto;
+      display: inline-block;
+      width: 200px;
+      height: 60px;
+      font-size: 30px;
+      line-height: normal;
+
+      background: center no-repeat;
+      background-image: url("/IMAGE/Home/line.png");
+
+      &.Show {
+        bottom: 5px;
+
+        i:first-child {
+          animation: IAnimateHome 2s linear infinite;
+        }
+      }
+
+      i {
+        width: 100%;
+
+        &:not(:first-child) {
+          position: relative;
+          top: -30px;
+        }
+      }
+    }
+  }
+}
+
+//@keyframes HomeAnimation {
+//  0% {
+//    transform: rotate(0deg);
+//    border-radius: 10%;
+//  }
+//  10% {
+//    border-radius: 50%;
+//  }
+//  20% {
+//    border-radius: 10%;
+//  }
+//  30% {
+//    border-radius: 50%;
+//  }
+//  40% {
+//    border-radius: 10%;
+//  }
+//  50% {
+//    border-radius: 50%;
+//  }
+//  60% {
+//    border-radius: 10%;
+//  }
+//  70% {
+//    border-radius: 50%;
+//  }
+//  80% {
+//    border-radius: 10%;
+//  }
+//  90% {
+//    border-radius: 50%;
+//  }
+//  100% {
+//    transform: rotate(360deg);
+//    border-radius: 10%;
+//  }
+//
+//}
+//
+//body {
+//  * {
+//    transition: 0.4s;
+//    cursor: default;
+//    text-align: center;
+//  }
+//
+//  input[type="button"], button {
+//    cursor: pointer;
+//  }
+//
+//  .Image {
+//    position: absolute;
+//    left: 0;
+//    top: 0;
+//    width: 100%;
+//    height: 100%;
+//    background-repeat: no-repeat;
+//    background-size: cover;
+//    background-position: center;
+//    background-attachment: fixed;
+//
+//    &.Home {
+//      background-image: url("/resources/images/fons/fon_all.jpg");
+//
+//      &Animation {
+//        text-align: center;
+//
+//        .Quad {
+//          &Animation {
+//            position: relative;
+//            display: inline-block;
+//            height: 75vh;
+//            width: 75vh;
+//            vertical-align: middle;
+//          }
+//
+//          position: absolute;
+//          top: 0;
+//          left: 0;
+//          display: inline-block;
+//          height: 75vh;
+//          width: 75vh;
+//
+//          transform: rotate(0deg);
+//          border-radius: 50%;
+//          animation: HomeAnimation 8s infinite linear;
+//          opacity: .5;
+//
+//          &.Q1 {
+//            background-color: #a10095;
+//            animation-delay: 0s;
+//          }
+//          &.Q2 {
+//            background-color: #b90f18;
+//            animation-delay: -2.25s;
+//            animation-direction: reverse;
+//          }
+//          &.Q3 {
+//            background-color: #009c10;
+//            animation-delay: -4.50s;
+//          }
+//          &.Q4 {
+//            background-color: #0c5460;
+//            animation-delay: -6.75s;
+//            animation-direction: reverse;
+//          }
+//        }
+//      }
+//    }
+//  }
+//
+//  .Window {
+//    position: absolute;
+//    left: 0;
+//    top: 0;
+//    display: inline-block;
+//    min-width: 100%;
+//    min-height: 100%;
+//    text-align: center;
+//  }
+//
+//  #Home {
+//    position: relative;
+//    height: 100vh;
+//    line-height: 100vh;
+//    overflow: hidden;
+//
+//    .Title {
+//      display: inline-block;
+//      max-width: 100%;
+//      vertical-align: middle;
+//      line-height: normal;
+//
+//      .Name {
+//        color: @color-white;
+//        font-size: 120px;
+//      }
+//
+//      .Text {
+//        display: inline-block;
+//        color: @color-lite;
+//        font-size: 20px;
+//        max-width: 100%;
+//        padding: 0 20px;
+//
+//        @media (min-width: 576px) {
+//          & {
+//            max-width: 70%;
+//          }
+//
+//          @media (min-width: 768px) {
+//            & {
+//              max-width: 50%;
+//            }
+//          }
+//        }
+//
+//        &:hover {
+//          color: @color-white;
+//        }
+//      }
+//    }
+//  }
+//
+//  #Info {
+//    padding: 10vh 0;
+//    width: 100%;
+//    font-family: @font-RobotoSlab;
+//
+//    .Title {
+//      font-size: 40px;
+//      font-weight: bold;
+//      text-transform: uppercase;
+//    }
+//
+//    .Text {
+//      font-size: 20px;
+//      text-align: justify;
+//    }
+//  }
+//
+//  /*.Title {
+//    position: absolute;
+//    right: 0;
+//    top: 0;
+//    width: 60px;
+//    height: 100%;
+//    background-color: rgba(0,0,0,.7);
+//    text-align: center;
+//    overflow: hidden;
+//
+//    .Route {
+//      display: inline-block;
+//      transform: rotate(90deg);
+//      width: 200px;
+//      height: 60px;
+//      line-height: 60px;
+//      margin: -70px;
+//      font-size: 30px;
+//      color: @color-lite;
+//    }
+//  }*/
+//}
+//
+//@keyframes BB_UP {
+//  0% {
+//    bottom: 25px;
+//  }
+//  80% {
+//    bottom: 25px;
+//  }
+//  90% {
+//    bottom: 50px;
+//  }
+//  100% {
+//    bottom: 25px;
+//  }
+//}
