@@ -24,9 +24,9 @@ abstract class Controller
         $message = $_COOKIE["RedirectMessage"];
 
         Html::Styles("/resources/style/system/bootstrap.min.css");
-        Html::Styles("/resources/style/system.min.css");
-        Html::Styles("/resources/style/layout/$name.min.css");
-        Html::Styles("/resources/style/$name/$view.min.css");
+        Html::Styles("/resources/style/system.less");
+        Html::Styles("/resources/style/layout/$name.less");
+        Html::Styles("/resources/style/$name/$view.less");
         Html::Styles("/resources/style/system/fontawesome/css/all.css");
 
         Html::Scripts("/resources/js/system/jquery-3.3.1.min.js");
@@ -34,6 +34,7 @@ abstract class Controller
         Html::Scripts("/resources/js/system/bootstrap.min.js");
         Html::Scripts("/resources/js/layout/$name.js");
         Html::Scripts("/resources/js/$name/$view.js");
+        Html::Scripts("//cdnjs.cloudflare.com/ajax/libs/less.js/3.7.0/less.min.js");
 
         if (file_exists($path_view)) {
             require_once("template/Header.php");
