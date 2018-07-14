@@ -87,13 +87,13 @@ a {
 ::-webkit-scrollbar-thumb {
   width: 5px;
   height: 5px;
-  box-shadow: inset 0 0 0 1px #010e1f;
-  background-color: #c8bd00;
+  box-shadow: inset 0 0 0 1px white;
+  background-color: #0c5460;
 }
 ::-webkit-scrollbar-thumb:hover {
   filter: invert(100%);
 }
 ::-webkit-scrollbar-track {
-  background-color: #2e2d3e;
+  background-color: white;
 }
 /*# sourceMappingURL=system.css.map */

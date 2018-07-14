@@ -14,11 +14,12 @@ body {
     font-size: 14px;
     font-weight: 400;
     text-transform: uppercase;
-    z-index: 100;
+    z-index: 10000;
+    transition: .5s;
 
     .Logo {
-      margin-top: -10px;
-      height: 80px;
+      margin-top: -7px;
+      height: 70px;
     }
 
     .Menu {
@@ -54,6 +55,38 @@ body {
         }
       }
     }
+
+    &.White {
+      padding: 10px;
+      height: 60px;
+      line-height: 40px;
+      color: black;
+      background: white;
+      box-shadow: 0 0 0 2px black;
+
+      .Logo {
+        margin-top: -5px;
+        height: 50px;
+      }
+
+      .Menu {
+        .element {
+
+          &:after {
+            background-color: black;
+          }
+
+          &:hover {
+            color: #005cbf;
+
+            &:after {
+              background-color: #005cbf;
+            }
+          }
+        }
+      }
+    }
+
     @media (min-width: 768px) {
       .Menu {
         display: inline-block;

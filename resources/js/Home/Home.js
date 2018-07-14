@@ -3,13 +3,16 @@ function Bottom() {
 }
 
 $(document).ready(Ready);
-$(window).resize(Resize);
+W.resize(Resize);
+W.scroll(Scroll);
 
 function Ready() {
 
 }
 function Resize() {
 
+}
+function Scroll() {
 }
 
 function Slider(object) {

@@ -66,9 +66,6 @@
     margin-top: 10px;
   }
 }
-body * {
-  transition: .5s;
-}
 body #Home {
   position: relative;
   font-family: 'Roboto Slab', serif;
@@ -77,7 +74,7 @@ body #Home {
 body #Home .Home {
   position: relative;
   margin: 15px;
-  width: calc(100vw - 30px);
+  width: calc(100% - 30px);
   height: calc(100vh - 30px);
   line-height: calc(100vh - 30px);
   overflow: hidden;
@@ -107,7 +104,17 @@ body #Home .Home .Window .Slider {
   max-height: 70%;
   height: 100%;
 }
-body #Home .Home .Window .Slider .Arrow {
+body #Home .Home .Window .Slider .Blocks {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+  height: 100%;
+  line-height: normal;
+  overflow: hidden;
+  border-radius: 15px;
+}
+body #Home .Home .Window .Slider .Blocks .Arrow {
   position: absolute;
   top: calc(50% - 25px);
   display: inline-block;
@@ -118,41 +125,46 @@ body #Home .Home .Window .Slider .Arrow {
   background-color: #0c5460;
   color: white;
   font-size: 30px;
+  cursor: pointer;
+  z-index: 100;
 }
-body #Home .Home .Window .Slider .Arrow.Left {
+body #Home .Home .Window .Slider .Blocks .Arrow.Left {
   left: 5px;
   padding-right: 5px;
 }
-body #Home .Home .Window .Slider .Arrow.Right {
+body #Home .Home .Window .Slider .Blocks .Arrow.Right {
   right: 5px;
   padding-left: 5px;
 }
-body #Home .Home .Window .Slider .Blocks {
-  position: relative;
-  display: inline-block;
-  vertical-align: middle;
-  width: 100%;
-  height: 100%;
-  line-height: normal;
-  overflow: hidden;
-}
 body #Home .Home .Window .Slider .Blocks .Block {
+  position: absolute;
+  left: 100%;
+  top: 0;
   display: inline-block;
   float: left;
   height: 100%;
   width: 100%;
+  background: center fixed no-repeat #0c5460;
+  background-size: cover;
+  transition: .5s;
 }
-body #Home .Home .Window .Slider .Blocks .Block .Element {
-  float: left;
-  height: 100%;
-  background-color: #0c5460;
+body #Home .Home .Window .Slider .Blocks .Block.Left {
+  left: -100%;
+  z-index: 50;
+}
+body #Home .Home .Window .Slider .Blocks .Block.Active {
+  left: 0;
+  z-index: 100;
+}
+body #Home .Home .Window .Slider .Blocks .Block.Right {
+  left: 100%;
+  z-index: 50;
 }
 body #Home .Home .Window .Slider .Blocks .Block .Text {
-  width: 45%;
-  background-color: white;
-}
-body #Home .Home .Window .Slider .Blocks .Block .Photo {
-  width: 55%;
+  padding: 10px 0;
+  width: 100%;
+  height: auto;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 body #Home .Line {
   position: absolute;
@@ -180,5 +192,31 @@ body #Home .Line i {
 body #Home .Line i:not(:first-child) {
   position: relative;
   top: -30px;
+}
+body #Comments {
+  min-height: 50vh;
+}
+body #Banquet .Image {
+  margin: 15px;
+  width: calc(100% - 30px);
+  height: calc(50vh - 30px);
+  line-height: calc(50vh - 30px);
+  background: center no-repeat fixed #0c5460;
+  background-image: url("/IMAGE/fons/OH3C1P0.jpg");
+  background-size: cover;
+}
+body #Banquet .Image .Name {
+  width: 100%;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  color: white;
+  text-shadow: 0 0 5px black;
+  font-family: 'Lobster', cursive;
+  font-size: 10vh;
+}
+body #Banquet .Info .BlockImages .Element {
+  height: 25vh;
+  background: center no-repeat fixed #005083;
 }
 /*# sourceMappingURL=Home.css.map */
