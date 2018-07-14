@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="mcafe">
+  <component name="PublishConfigData" serverName="mcafe" uploadOnCheckin="b752ccf8-b983-480f-8e60-02ed69f12b9b">
     <serverData>
       <paths name="mcafe">
         <serverdata>
@@ -10,5 +10,6 @@
         </serverdata>
       </paths>
     </serverData>
+    <option name="myUploadOnCheckinName" value="mcafe" />
   </component>
 </project>

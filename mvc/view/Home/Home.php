@@ -1,7 +1,7 @@
 <section class="Page">
     <section id="Home">
         <div class="Home">
-            <div class="Window Image"></div>
+            <div class="Window Image ParallaxScrolling"></div>
             <div class="Window Image Black"></div>
             <div class="Window">
                 <div class="Slider container">
@@ -46,12 +46,12 @@
     <section id="Comments">
 
     </section>
-    <section id="Banquet" class="Title">
-        <div class="Image">
-            <div class="Name">Банкеты</div>
+    <section id="Banquet" class="Title Block">
+        <div class="Image ParallaxScrolling">
+            <div class="Name"><span>Банкеты</span></div>
         </div>
     </section>
-    <section id="Banquet" class="Info">
+    <section id="Banquet">
         <div class="container">
             <div class="row">
                 <div class="BlockImages col-12 col-md-5">
