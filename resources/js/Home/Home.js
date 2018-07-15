@@ -7,12 +7,21 @@ W.resize(Resize);
 W.scroll(Scroll);
 
 function Ready() {
-
+    Resize();
 }
 function Resize() {
-
+    Scroll();
 }
 function Scroll() {
+    var ParallaxScrolling = $(".ParallaxScrolling");
+    $.each(ParallaxScrolling, function (i, v) {
+        var element = $(v);
+        var PSTop = element.offset().top,
+            PSHeight = element.height(),
+            PWW = W.WS - PSTop - PSHeight,
+            ParallaxScrollingTop =  PWW / 10;
+        element.css("background-position", "center " + ParallaxScrollingTop + "px");
+    });
 }
 
 function Slider(object) {
