@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="mcafe" uploadOnCheckin="b752ccf8-b983-480f-8e60-02ed69f12b9b">
+  <component name="PublishConfigData" serverName="mcafe">
     <serverData>
-      <paths name="mcafe">
+      <paths name="GM_TEST">
         <serverdata>
           <mappings>
-            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>
     </serverData>
-    <option name="myUploadOnCheckinName" value="mcafe" />
   </component>
 </project>
