@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0dd0dd54-39c0-43b9-9e3d-f95b5fbca411" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvc/view/Home/Home.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/view/Home/Home.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/js/Home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/Home/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/style/home/Home.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/style/Home/Home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/style/home/Home.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/resources/style/Home/Home.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/style/home/Home.less" beforeDir="false" afterPath="$PROJECT_DIR$/resources/style/Home/Home.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/style/home/Home.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/style/Home/Home.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/style/home/Home.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/resources/style/Home/Home.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/style/Home/Home.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/style/Home/Home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/style/Home/Home.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/resources/style/Home/Home.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/style/Home/Home.less" beforeDir="false" afterPath="$PROJECT_DIR$/resources/style/Home/Home.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/style/Home/Home.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/style/Home/Home.min.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -39,8 +34,8 @@
       <file leaf-file-name="Home.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/style/Home/Home.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="107" column="28" lean-forward="true" selection-start-line="107" selection-start-column="28" selection-end-line="107" selection-end-column="28" />
+            <state relative-caret-position="306">
+              <caret line="42" selection-start-line="42" selection-end-line="42" />
             </state>
           </provider>
         </entry>
@@ -48,8 +43,8 @@
       <file leaf-file-name="Home.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/js/Home/Home.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+            <state relative-caret-position="238">
+              <caret line="20" column="42" lean-forward="true" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -95,6 +90,7 @@
         <option value="$PROJECT_DIR$/system/mvc/Controller.php" />
         <option value="&lt;b752ccf8-b983-480f-8e60-02ed69f12b9b&gt;/mvc/view/Home/Home.php" />
         <option value="$PROJECT_DIR$/mvc/view/Home/Home.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/resources/style/Home/Home.less" />
         <option value="$PROJECT_DIR$/resources/js/Home/Home.js" />
       </list>
@@ -186,6 +182,11 @@
               <item name="Home" type="462c0819:PsiDirectoryNode" />
               <item name="Home.less" type="620a8d5e:NestingTreeNode" />
             </path>
+            <path>
+              <item name="Mcafe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -229,7 +230,7 @@
       <updated>1531477374852</updated>
       <workItem from="1531477376503" duration="5240000" />
       <workItem from="1531590936105" duration="3736000" />
-      <workItem from="1531596776581" duration="1896000" />
+      <workItem from="1531596776581" duration="6003000" />
     </task>
     <task id="LOCAL-00001" summary="Home">
       <created>1531482854548</created>
@@ -245,11 +246,18 @@
       <option name="project" value="LOCAL" />
       <updated>1531593781523</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Load from Server">
+      <created>1531603424100</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1531603424101</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10872000" />
+    <option name="totallyTimeSpent" value="14979000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -258,7 +266,8 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="File Transfer" order="8" weight="0.32972136" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32972136" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="right" id="Remote Host" order="3" weight="0.32980332" />
@@ -275,7 +284,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="File Transfer" order="8" weight="0.32972136" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -323,13 +331,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/Header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -390,6 +391,9 @@
     <entry file="file://$PROJECT_DIR$/resources/style/Home/Home.min.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/mvc/view/Home/Home.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -399,15 +403,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/style/Home/Home.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="107" column="28" lean-forward="true" selection-start-line="107" selection-start-column="28" selection-end-line="107" selection-end-column="28" />
+        <state relative-caret-position="306">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/Header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/js/Home/Home.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+        <state relative-caret-position="238">
+          <caret line="20" column="42" lean-forward="true" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
         </state>
       </provider>
     </entry>
