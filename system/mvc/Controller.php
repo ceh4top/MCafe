@@ -24,9 +24,9 @@ abstract class Controller
         $message = $_COOKIE["RedirectMessage"];
 
         Html::Styles("/STYLE/system/bootstrap.min.css");
-        Html::Styles("/STYLE/system.min.css");
-        Html::Styles("/STYLE/layout/$name.min.css");
-        Html::Styles("/STYLE/$name/$view.min.css");
+        Html::Styles("/STYLE/system.less");
+        Html::Styles("/STYLE/layout/$name.less");
+        Html::Styles("/STYLE/$name/$view.less");
         Html::Styles("/STYLE/system/fontawesome/css/all.css");
 
         Html::Scripts("/SCRIPT/system/jquery-3.3.1.min.js");

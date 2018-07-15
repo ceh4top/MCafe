@@ -56,10 +56,10 @@
             <div class="row">
                 <div class="BlockImages col-12 col-md-5">
                     <div class="row">
-                        <div class="Image col-6"></div>
-                        <div class="Image col-6"></div>
-                        <div class="Image col-6"></div>
-                        <div class="Image col-6"></div>
+                        <div class="Image col-6"><div class="Img img1"></div></div>
+                        <div class="Image col-6"><div class="Img img2"></div></div>
+                        <div class="Image col-6"><div class="Img img3"></div></div>
+                        <div class="Image col-6"><div class="Img img4"></div></div>
                     </div>
                 </div>
                 <div class="BlockText col-12 col-md-7">

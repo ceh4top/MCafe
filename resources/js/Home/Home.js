@@ -13,12 +13,6 @@ function Resize() {
 
 }
 function Scroll() {
-    $.each($(".ParallaxScrolling"), function (i, v) {
-        var element = $(v);
-        var top = element.offset().
-    });
-    var ParallaxScrollingTop = -(W.WS / $bgobj.data('speed'));
-    $(".ParallaxScrolling").css("background-position", )
 }
 
 function Slider(object) {

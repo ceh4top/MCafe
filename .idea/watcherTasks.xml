@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ProjectTasksOptions" suppressed-tasks="Less">
-    <TaskOptions isEnabled="true">
+    <TaskOptions isEnabled="false">
       <option name="arguments" value="$FileName$ $FileNameWithoutExtension$.css --source-map" />
       <option name="checkSyntaxErrors" value="true" />
       <option name="description" />
@@ -21,13 +21,12 @@
       </option>
       <option name="outputFromStdout" value="false" />
       <option name="program" value="$USER_HOME$/AppData/Roaming/npm/lessc" />
-      <option name="runOnExternalChanges" value="true" />
       <option name="scopeName" value="Project Files" />
       <option name="trackOnlyRoot" value="true" />
       <option name="workingDir" value="$FileDir$" />
       <envs />
     </TaskOptions>
-    <TaskOptions isEnabled="true">
+    <TaskOptions isEnabled="false">
       <option name="arguments" value="$FileName$ $FileNameWithoutExtension$.min.css --clean-css" />
       <option name="checkSyntaxErrors" value="true" />
       <option name="description" />
@@ -47,7 +46,6 @@
       </option>
       <option name="outputFromStdout" value="false" />
       <option name="program" value="lessc" />
-      <option name="runOnExternalChanges" value="true" />
       <option name="scopeName" value="Project Files" />
       <option name="trackOnlyRoot" value="true" />
       <option name="workingDir" value="$FileDir$" />
