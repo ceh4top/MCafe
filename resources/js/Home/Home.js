@@ -19,8 +19,12 @@ function Scroll() {
         var PSTop = element.offset().top,
             PSHeight = element.height(),
             PWW = W.WS - PSTop - PSHeight,
-            ParallaxScrollingTop =  PWW / 10;
-        element.css("background-position", "center " + ParallaxScrollingTop + "px");
+            ParallaxScrollingTop =  PWW / 2,
+            PSWidth = Math.max(PSHeight * 8 / 3, W.WW);
+        element.css({
+            "background-position": "center " + ParallaxScrollingTop + "px",
+            "background-size": PSWidth + "px"
+        });
     });
 }
 
