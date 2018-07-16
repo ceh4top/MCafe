@@ -9,6 +9,11 @@
 <footer>
 
 </footer>
+<div id="Preloader">
+    <div class="Image">
+
+    </div>
+</div>
 <?=Html::Scripts();?>
 </body>
 </html>

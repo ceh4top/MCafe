@@ -1,5 +1,14 @@
 @import "../default";
 
+@keyframes preloader {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 body {
   header {
     padding: 30px;
@@ -101,5 +110,31 @@ body {
     background: bottom no-repeat fixed;
     background-size: cover;
     background-image: url("/IMAGE/fons/og9knk0_ab8c4d01.jpg");
+  }
+
+  #Preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    line-height: 100vh;
+    text-align: center;
+    background: center #182d49;
+    background-size: cover;
+    background-image: url("/IMAGE/Home/4_2.png");
+    z-index: 10000;
+
+    .Image {
+      display: inline-block;
+      width: 200px;
+      height: 200px;
+      vertical-align: middle;
+      background: center no-repeat;
+      background-size: contain;
+      background-image: url("/IMAGE/system/mcafe.png");
+      transform: rotate(0deg);
+      animation: preloader 4s infinite linear;
+    }
   }
 }

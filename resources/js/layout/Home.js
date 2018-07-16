@@ -8,15 +8,16 @@ W.resize(Resize);
 W.scroll(Scroll);
 
 function Ready() {
-    W.WH = W.height();
-    W.WW = W.width();
-    W.WS = W.scrollTop();
+    Resize();
+    setTimeout(function () {
+        $("#Preloader").remove();
+    }, 3000);
 }
 
 function Resize() {
     W.WH = W.height();
     W.WW = W.width();
-    W.WS = W.scrollTop();
+    Scroll();
 }
 
 function Scroll() {
