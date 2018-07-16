@@ -69,6 +69,22 @@
             </div>
         </div>
     </section>
+    <section id="Menu" class="Title Block">
+        <div class="Image ParallaxScrolling">
+            <div class="Name"><span>Меню</span></div>
+        </div>
+    </section>
+    <section id="Menu">
+        <div class="flipbook-viewport">
+            <div class="container">
+                <div class="flipbook">
+                    <div style="background-image:url(/IMAGE/Home/Menu/1.jpg)"></div>
+                    <div style="background-image:url(/IMAGE/Home/Menu/2.jpg)"></div>
+                    <div style="background-image:url(/IMAGE/Home/Menu/3.jpg)"></div>
+                </div>
+            </div>
+        </div>
+    </section>
     <section id="Contacts" class="Title Block">
         <div class="Image ParallaxScrolling">
             <div class="Name"><span>Контакты</span></div>
