@@ -24,17 +24,24 @@ abstract class Controller
         $message = $_COOKIE["RedirectMessage"];
 
         Html::Styles("/STYLE/system/bootstrap.min.css");
-        Html::Styles("/STYLE/system.less");
-        Html::Styles("/STYLE/layout/$name.less");
-        Html::Styles("/STYLE/$name/$view.less");
+        Html::Styles("/STYLE/system.min.css");
+        Html::Styles("/STYLE/layout/$name.min.css");
+        Html::Styles("/STYLE/$name/$view.min.css");
         Html::Styles("/STYLE/system/fontawesome/css/all.css");
 
         Html::Scripts("/SCRIPT/system/jquery-3.3.1.min.js");
+        Html::Scripts("/SCRIPT/system/modernizr.2.5.3.min.js");
         Html::Scripts("/SCRIPT/system/popper.min.js");
         Html::Scripts("/SCRIPT/system/bootstrap.min.js");
+
+        /*if ($view == "Menu" && $name == "Home") {
+            Html::Scripts("/SCRIPT/system/turn/turn.min.js");
+            Html::Scripts("/SCRIPT/system/turn/turn.html4.min.js");
+        }*/
+
         Html::Scripts("/SCRIPT/layout/$name.js");
         Html::Scripts("/SCRIPT/$name/$view.js");
-        Html::Scripts("//cdnjs.cloudflare.com/ajax/libs/less.js/3.7.0/less.min.js");
+        //Html::Scripts("//cdnjs.cloudflare.com/ajax/libs/less.js/3.7.0/less.min.js");
 
         if (file_exists($path_view)) {
             require_once("template/Header.php");

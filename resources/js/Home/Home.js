@@ -13,7 +13,7 @@ function Resize() {
     Scroll();
 }
 function Scroll() {
-    var ParallaxScrolling = $(".ParallaxScrolling");
+    /*var ParallaxScrolling = $(".ParallaxScrolling");
     $.each(ParallaxScrolling, function (i, v) {
         var element = $(v);
         var PSTop = element.offset().top,
@@ -25,7 +25,7 @@ function Scroll() {
             "background-position": "center " + ParallaxScrollingTop + "px",
             "background-size": PSWidth + "px"
         });
-    });
+    });*/
 }
 
 function Slider(object) {

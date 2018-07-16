@@ -217,8 +217,22 @@ body .Title.Block .Image .Name {
   font-family: 'Lobster', cursive;
   font-size: 10vh;
 }
-body #Banquet .Info .BlockImages .Element {
-  height: 25vh;
-  background: center no-repeat fixed #005083;
+body #Banquet .BlockImages .Image {
+  height: 150px;
+}
+body #Banquet .BlockImages .Image .Img {
+  height: 120px;
+  background-size: cover;
+}
+body #Banquet .BlockImages .Image .img1,
+body #Banquet .BlockImages .Image .img3 {
+  background-image: url("/IMAGE/Home/банкет.jpg");
+}
+body #Banquet .BlockImages .Image .img2,
+body #Banquet .BlockImages .Image .img4 {
+  background-image: url("/IMAGE/Home/зал.jpg");
+}
+body #Banquet .BlockText .Text {
+  text-align: justify;
 }
 /*# sourceMappingURL=Home.css.map */

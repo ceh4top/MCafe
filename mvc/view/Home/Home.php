@@ -43,9 +43,6 @@
             </a>
         </div>
     </section>
-    <section id="Comments">
-
-    </section>
     <section id="Banquet" class="Title Block">
         <div class="Image ParallaxScrolling">
             <div class="Name"><span>Банкеты</span></div>
