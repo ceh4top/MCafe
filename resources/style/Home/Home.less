@@ -54,6 +54,20 @@ body {
           max-height: 70%;
           height: 100%;
 
+          .Block {
+            background: center no-repeat;
+            background-size: cover;
+          }
+          #HomeBlock_1 {
+            background-image: url("/IMAGE/Home/nMYv3UoSKxc.jpg");
+          }
+          #HomeBlock_2 {
+            background-image: url("/IMAGE/Home/jnK7N0v0R_w.jpg");
+          }
+          #HomeBlock_3 {
+            background-image: url("/IMAGE/Home/FMZaP0OOhk4.jpg");
+          }
+
           .Blocks {
             position: relative;
             display: inline-block;
@@ -100,6 +114,8 @@ body {
               background: center no-repeat #0c5460;
               background-size: cover;
               transition: .5s;
+              border-radius: 15px;
+              overflow: hidden;
 
               &.Left {
                 left: -100%;
@@ -117,10 +133,15 @@ body {
               }
 
               .Text {
-                padding: 10px 0;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                padding: 5px 15px;
                 width: 100%;
                 height: auto;
                 background-color: rgba(255, 255, 255, 0.5);
+                text-align: left;
+                font-size: 20px;
               }
             }
           }
@@ -210,29 +231,105 @@ body {
   }
 
   #Banquet {
+    padding: 30px 0;
       .BlockImages {
         .Image {
-          height: 150px;
+          height: 200px;
 
           .Img {
-            height: 120px;
+            height: 180px;
             background-size: cover;
           }
           .img1, .img3 {
-            background-image: url("/IMAGE/Home/банкет.jpg");
+            background-image: url("/IMAGE/Home/Banquet.jpg");
           }
           .img2, .img4 {
-            background-image: url("/IMAGE/Home/зал.jpg");
+            background-image: url("/IMAGE/Home/Hall.jpg");
           }
         }
 
       }
     .BlockText {
-      .Title {
+      text-align: center;
 
+      .Title {
+        width: 100%;
+        font-size: 30px;
+      }
+      .IconLine {
+        width: 100%;
+        height: 30px;
+
+        .Icon {
+          display: inline-block;
+          width: 30px;
+          height: 30px;
+          background: center no-repeat;
+          background-size: contain;
+          background-image: url("/IMAGE/Home/Soup.png");
+        }
+        margin-bottom: 15px;
       }
       .Text {
         text-align: justify;
+        font-size: 16px;
+      }
+    }
+  }
+
+  #Contacts {
+    .Contact {
+      text-align: center;
+      padding: 25px 0;
+
+      a {
+        color: black;
+        text-transform: none;
+        text-decoration: none;
+
+        p:hover {
+          -webkit-transform: scale(1.5);
+          -moz-transform: scale(1.5);
+          -ms-transform: scale(1.5);
+          -o-transform: scale(1.5);
+          transform: scale(1.5);
+        }
+      }
+
+      .Title {
+        display: inline-block;
+        width: 100%;
+        height: auto;
+        font-size: 30px;
+      }
+      .IconLine {
+        width: 100%;
+        height: 30px;
+
+        .Icon {
+          display: inline-block;
+          width: 30px;
+          height: 30px;
+          background: center no-repeat;
+          background-size: contain;
+          background-image: url("/IMAGE/Home/Soup.png");
+        }
+        margin-bottom: 15px;
+      }
+      .Text {
+        p {
+          font-size: 20px;
+          padding: 5px 0;
+        }
+
+        .TextSocial {
+          font-size: 25px;
+        }
+
+        .IconLine {
+          margin-top: -10px;
+          font-size: 30px;
+        }
       }
     }
   }

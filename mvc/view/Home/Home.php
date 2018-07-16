@@ -6,24 +6,19 @@
             <div class="Window">
                 <div class="Slider container">
                     <div class="Blocks">
-                        <div class="Block Active" id="HomeBlock_1" number="1">
+                        <div class="Block Active" id="HomeBlock_1">
                             <div class="Text">
-                                <h1>Кофе на вынос</h1>
-                                <p>При покупке кофе на вынос, вы получаете скидку 20%!</p>
+                                Кофе на вынос со скидкой
                             </div>
                         </div>
-                        <div class="Block Right" id="HomeBlock_2" number="2">
+                        <div class="Block Right" id="HomeBlock_2">
                             <div class="Text">
-                                <h1>Банкеты</h1>
-                                <p>Свадьба, День рождения, Фуршет или Корпоратив?</p>
-                                <p>Мы рады быть частью вашего праздника!</p>
+                                Фото от посетителя
                             </div>
                         </div>
-                        <div class="Block Left" id="HomeBlock_3" number="3">
+                        <div class="Block Left" id="HomeBlock_3">
                             <div class="Text">
-                                <h1>Текст</h1>
-                                <p>Свадьба, День рождения, Фуршет или Корпоратив?</p>
-                                <p>Мы рады быть частью вашего праздника!</p>
+                                Блинчики от 50 рублей
                             </div>
                         </div>
                         <div class="Left Arrow" onclick="Slider(this);">
@@ -53,10 +48,10 @@
             <div class="row">
                 <div class="BlockImages col-12 col-md-6">
                     <div class="row">
-                        <div class="Image col-6"><div class="Img img1"></div></div>
-                        <div class="Image col-6"><div class="Img img2"></div></div>
-                        <div class="Image col-6"><div class="Img img3"></div></div>
-                        <div class="Image col-6"><div class="Img img4"></div></div>
+                        <div class="Image col-12 col-md-6"><div class="Img img1"></div></div>
+                        <div class="Image col-12 col-md-6"><div class="Img img2"></div></div>
+                        <div class="Image col-12 col-md-6"><div class="Img img3"></div></div>
+                        <div class="Image col-12 col-md-6"><div class="Img img4"></div></div>
                     </div>
                 </div>
                 <div class="BlockText col-12 col-md-6">
@@ -100,9 +95,9 @@
                     <div class="Title"> Связь с нами </div>
                     <div class="IconLine"><div class="Icon"></div></div>
                     <div class="Text">
-                        <p><i class="fas fa-mobile-alt"></i> +7(951)854-10-94 </p>
-                        <p><i class="fas fa-map-marker-alt"></i> Воронеж, ул. Московский Проспект 4 </p>
-                        <p><i class="fas fa-envelope-open"></i> mcafevrn@yandex.ru </p>
+                        <a href="tel:+79518541094"><p><i class="fas fa-mobile-alt"></i> +7(951)854-10-94 </p></a>
+                        <a href="https://yandex.ru/maps/?text=Воронеж, ул. Московский Проспект 4"><p><i class="fas fa-map-marker-alt"></i> Воронеж, ул. Московский Проспект 4 </p></a>
+                        <a href="mailto: mcafevrn@yandex.ru"><p><i class="fas fa-envelope-open"></i> mcafevrn@yandex.ru </p></a>
                         <br>
                         <p class="TextSocial"> Мы в социальных сетях: </p>
                         <div class="IconLine">
