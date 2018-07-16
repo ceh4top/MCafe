@@ -20,10 +20,10 @@
     <div class="container">
         <img class="Logo" src="/IMAGE/system/mcafe.png">
         <div class="right Menu">
-            <a class="element active">Главная</a>
-            <a class="element">Бронь</a>
-            <a class="element">Меню</a>
-            <a class="element">Контакты</a>
+            <a class="element active" data-name="Home" onclick="Go('Home');">Главная</a>
+            <a class="element" data-name="Banquet" onclick="Go('Banquet');">Банкеты</a>
+            <a class="element" data-name="Menu" onclick="Go('Menu');">Меню</a>
+            <a class="element" data-name="Contacts" onclick="Go('Contacts');">Контакты</a>
         </div>
     </div>
 </header>
